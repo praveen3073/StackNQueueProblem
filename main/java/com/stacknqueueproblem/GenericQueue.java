@@ -18,4 +18,8 @@ public class GenericQueue {
     public GenericNode front() {
         return genericLinkedList.getHead();
     }
+
+    public GenericNode dequeue() {
+        return genericLinkedList.pop();
+    }
 }
