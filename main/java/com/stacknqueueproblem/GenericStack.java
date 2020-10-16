@@ -18,4 +18,8 @@ public class GenericStack {
     public GenericNode peek() {
         return genericLinkedList.getHead();
     }
+
+    public GenericNode pop() {
+        return genericLinkedList.pop();
+    }
 }
